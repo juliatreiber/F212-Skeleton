@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Basic Elements</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/skeleton.css"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="templates/skeleton/js/handlebars-v2.0.0.js"></script>
+</head>
+<body>
+
+<script id="navigation-template" type="text/x-handlebars-template"></script>
+<header class="page-nav clearfix"></header>
+
+<div class="container test-grid">
+    <h1>Basic Page Elements &#8211; Scaffolding, Colors, and Text</h1>
+    <section id="scaffolding" class="template-section">
+        <h3 class="section-header">Scaffolding Example &#8211; do not change!</h3>
+        <div class="one-third column alpha"><label>One-third</label></div>
+        <div class="two-thirds column omega"><label>Two-thirds</label></div>
+        <div class="one column alpha"><label>One Col</label></div><div class="fifteen columns omega"><label>Fifteen Columns</label></div>
+        <div class="two columns alpha"><label>Two Columns</label></div><div class="fourteen columns omega"><label>Fourteen Columns</label></div>
+        <div class="three columns alpha"><label>Three Columns</label></div><div class="thirteen columns omega"><label>Thirteen Columns</label></div>
+        <div class="four columns alpha"><label>Four Columns</label></div><div class="twelve columns omega"><label>Twelve Columns</label></div>
+        <div class="five columns alpha"><label>Five Columns</label></div><div class="eleven columns omega"><label>Eleven Columns</label></div>
+        <div class="six columns alpha"><label>Six Columns</label></div><div class="ten columns omega"><label>Ten Columns</label></div>
+        <div class="seven columns alpha"><label>Seven Columns</label></div><div class="nine columns omega"><label>Nine Columns</label></div>
+        <div class="eight columns alpha"><label>Eight Columns</label></div><div class="eight columns omega"><label>Eight Columns</label></div>
+        <div class="nine columns alpha"></div><div class="seven columns omega"></div>
+        <div class="ten columns alpha"></div><div class="six columns omega"></div>
+        <div class="eleven columns alpha"></div><div class="five columns omega"></div>
+        <div class="twelve columns alpha"></div><div class="four columns omega"></div>
+        <div class="thirteen columns alpha"></div><div class="three columns omega"></div>
+        <div class="fourteen columns alpha"></div><div class="two columns omega"></div>
+        <div class="fifteen columns alpha"></div><div class="one column omega"></div>
+
+
+        <div class="one-third column three-up"><label>One-third column</label></div>
+        <div class="one-third column three-up"><label>One-third column</label></div>
+        <div class="one-third column three-up last"><label>One-third column</label></div>
+    </section>
+
+    <section id="swatches" class="template-section">
+        <h3 class="section-header">Colors</h3>
+        <ul class="swatch-list">
+            <li>
+                <span class="sg-swatch" style="background: #f6921e;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #bf301a;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #a7a9ac;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #ffffff;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #bdce00;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #f6921e;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #bf301a;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #a7a9ac;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #ffffff;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #bdce00;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #f6921e;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #bf301a;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+            <li>
+                <span class="sg-swatch" style="background: #a7a9ac;"></span>
+                <span class="sg-label">Note</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="fonts" class="template-section">
+        <h3 class="section-header">Fonts</h3>
+        Primary Font<br/>
+        <strong>Primary Font Bold</strong><br/>
+        <em>Primary Font Italic</em><br/>
+        Secondary Font<br/>
+        <strong>Secondary Font Bold</strong><br/>
+        <em>Secondary Font Italic</em><br/>
+    </section>
+
+    <section id="headlines" class="template-section">
+        <h3 class="section-header">Headlines</h3>
+        <h1>Headline 1</h1>
+        <h2>Headline 2</h2>
+        <h3>Headline 3</h3>
+        <h4>Headline 4</h4>
+        <h5>Headline 5</h5>
+        <h6>Headline 6</h6>
+    </section>
+
+    <section id="paragraph" class="template-section">
+        <h3 class="section-header">Paragraph</h3>
+        <p>Multiply your anger by about a hundred, kate, that's how much he thinks he loves you. good morning, oh in case i don't see you, good afternoon, good evening and goodnight. brain freeze. circumstances have taught me that a man's ethics are the only possessions he will take beyond the grave. i now issue a new commandment: thou shalt do the dance. look at that, it's exactly three seconds before i honk your nose and pull your underwear over your head. we're going for a ride on the information super highway. look ma i'm road kill hey, maybe i will give you a call sometime. your number still 911? circumstances have taught me that a man's ethics are the only possessions he will take beyond the grave. i once heard a wise man say there are no perfect men. only perfect intentions. we got no food we got no money and our pets heads are falling off! haaaaaaarry.</p>
+    </section>
+
+    <section id="blockquote" class="template-section">
+        <h3 class="section-header">Blockquote</h3>
+        <div class="six columns offset-by-two">
+            <blockquote>&quot; Kale chips Cosby sweater crucifix Thundercats, bitters fap shabby chic synth hoodie. Pickled brunch banh mi flannel blog squid tousled, readymade Pitchfork. Pour-over biodiesel iPhone Blue Bottle narwhal, raw denim Williamsburg. &quot;
+            <cite>Some guy somewhere, that one time</cite></blockquote>
+        </div>
+    </section>
+
+    <section id="inline-elements" class="template-section">
+        <h3 class="section-header">Inline Text Elements</h3>
+        This sentence contains <a href="#">text that is a link.</a><br/>
+
+        <strong>Strong is used to indicate strong importance</strong><br/>
+
+        <em>This text has added emphasis</em><br/>
+
+        <u>This text is underlined</u><br/>
+
+        This text has a <strike>strikethrough</strike><br/>
+
+        Superscript<sup>&reg;</sup><br/>
+
+        Subscript for things like H<sub>2</sub>O<br/>
+
+        <small>This small text is small for fine print such as legal and &copy; information in the footer.</small><br/>
+
+        &quot;This text is a short inline quotation&quot;<br/>
+    </section>
+
+</div>
+
+<iframe id="device-frame"></iframe>
+
+
+<script type="text/javascript" src="js/template-nav.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>

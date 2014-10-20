@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>F212 Documentation</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/skeleton.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="templates/skeleton/js/handlebars-v2.0.0.js"></script>
+</head>
+<body>
+
+<script id="navigation-template" type="text/x-handlebars-template"></script>
+<header class="page-nav clearfix"></header>
+
+<div class="container test-grid">
+    <h1>Documentation</h1>
+    <section id="overview" class="template-section">
+        <h3 class="section-header">Overview</h3>
+        <p>This boilerplate is to help streamline the creative web design process.</p>
+    </section>
+
+    <section id="how-to" class="template-section">
+        <h3 class="section-header">How to Use These Elements</h3>
+        <p>You can use these elements any way you want!</p>
+        <p>
+            You can pull these HTML pages into Dreamweaver and cut/paste into a new layout.<br/>
+            You can grab the PSD of the grid layout <a href="images/F212_16col_Scaffolding.psd">here</a> for full desktop mock-ups.<br/>
+            You're also welcome to just screen capture and lay things out in a PSD from these individual pages.<br/>
+            Customize away: Background for parallax, colors, font faces, and font sizes. Just follow the general guidelines presented here.
+        </p>
+    </section>
+
+    <section id="compatibility" class="template-section">
+        <h3 class="section-header">Browser Support and Compatibility</h3>
+        <p>This framework is supported and tested with the following browsers and devices:</p>
+        iOS<br/>
+        Android<br/>
+        Chrome *<br/>
+        Firefox *<br/>
+        Safari *<br/>
+        Internet Explorer 9 - 11<br/>
+        <p><span class="small">* &#8211; Due to how quickly these browsers update and add enhancements, we recommend the latest versions, always.</span>
+
+        <h3>Why Internet Explorer is the least preferred web browser</h3>
+        <p>Many clients prefer to use IE due to most coporate systems running on Windows, and IE comes bundled with that OS. However, Internet Explorer is not a recommended browser nor is it the most widely used. Below is information to be mindful of moving forward when dealing with Internet Explorer support:</p>
+
+        <p>IE is not secure. Many exploits were discovered in it so far, and more are constantly discovered.<br/>
+        <a href="//www.usatoday.com/story/news/usanow/2014/05/01/microsoft-issues-internet-explorer-security-fix/8562737/">Supporting article on USA Today</a></p>
+
+        <p>Microsoft is dropping support of all outdated versions of IE beginning January 2016. Anyone running Windows 7/8 will only receive support, bug fixes, and security updates for IE11.<br/>
+        <a href="//blogs.msdn.com/b/ie/archive/2014/08/07/stay-up-to-date-with-internet-explorer.aspx">Supporting Article on MSDN</a></p>
+
+        <p>While IE generally rolls out a version every couple of years, other browsers such as Firefox and Chrome release out a new version every few weeks to couple of months. As a result, these browsers remain on top of possible security issues and stay within general web compliance guidelines.</p>
+
+        <p>IE's market share is shrinking, particularly IE8. Only 10% of the global browser market share is IE8 and it's expected to be 1% by the end of 2015.</p>
+
+        <p>In previous Integer projects such as Izze.com and Einstein Bros Pumpkin Bagel Bash Microsite, Google Analytics has reported we have almost 4 times as much traffic coming into the site from Chrome, Firefox, and Safari than ALL versions of IE combined. I would encourage everyone to consider this and do their best to replicate the experience their end users are receiving.</p>
+
+        <p>When content and capability choices are made including responsive, mobile-ready, parallax scrolling, HTML5 (video and other elements), custom scripting, and other modern UI/UX trends, you are actively making a choice to only be compliant with &quot;current&quot; browsers.  &quot;Current&quot; means usually only the last two versions of any browser &#8211; specifically IE. Generally if compatibility with old (IE8 and below) browsers is a requirement, the trade-off is limited accessibility for non-desktop users, simpler design, and limited use of features developed in the past 3 - 4 years. This includes HTML5, CSS3, jQuery plugins, and many other modern features.</p>
+
+    </section>
+
+    <section id="mobile-first" class="template-section">
+        <h3 class="section-header">Mobile First: A Note on Responsive</h3>
+        <p>There is an ongoing debate around whether &quot;mobile web&quot; is actually a THING. There is an increasing argument against making two separate designs, one for mobile, and one for desktop. Our goal with this boilerplate is to bridge the gap and deliver the same user experience regardless. The purpose of responsive design is to overcome the mobile vs dekstop mindset.</p>
+        <p>63% of all cell phone owners use their phones to go online (<a href="//www.pewinternet.org/2013/09/16/cell-internet-use-2013/">source</a>).</p>
+        <p>Google may soon be adding a new ranking algorithm based on UX and mobile friendliness (<a href="//searchengineland.com/google-may-add-mobile-user-experience-ranking-algorithm-205382">source</a>).</p>
+        <p>We encourage you to allow the scaffolding and responsive styling to do what it does best and avoid creating separate designs for mobile vs desktop. Once you plug in your content, you will see real-time how it shakes down for smaller and larger screen sizes.</p>
+    </section>
+
+</div>
+
+<iframe id="device-frame"></iframe>
+
+
+<script type="text/javascript" src="js/template-nav.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>

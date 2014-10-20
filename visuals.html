@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Visual Elements</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/skeleton.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="templates/skeleton/js/handlebars-v2.0.0.js"></script>
+</head>
+<body>
+
+    <script id="navigation-template" type="text/x-handlebars-template"></script>
+    <header class="page-nav clearfix"></header>
+
+    <div class="container test-grid">
+        <h1>Visual Elements &#8211; Images, Icons, Buttons, etc.</h1>
+
+        <section id="hero-image" class="template-section">
+            <h3 class="section-header">Hero Image</h3>
+            <img src="http://placehold.it/1440x600"/>
+        </section>
+
+        <section id="triple-image-layout" class="template-section">
+            <h3 class="section-header">Triple Column Images &#8211; Images will scale automatically to fit column widths and center if not full width</h3>
+            <div class="one-third column three-up"><img src="http://placehold.it/480x350"/></div>
+            <div class="one-third column three-up"><img src="http://placehold.it/480x350"/></div>
+            <div class="one-third column three-up last"><img src="http://placehold.it/480x350"/></div>
+        </section>
+
+        <section id="image-four-up" class="template-section">
+            <h3 class="section-header">Quad Column Images &#8211; Images will scale automatically to fit column widths and center if not full width</h3>
+            <div class="four columns four-up"><img src="http://placehold.it/350x300"/></div>
+            <div class="four columns four-up"><img src="http://placehold.it/350x300"/></div>
+            <div class="four columns four-up"><img src="http://placehold.it/350x300"/></div>
+            <div class="four columns four-up last"><img src="http://placehold.it/350x300"/></div>
+        </section>
+
+        <section id="browser-icons" class="template-section">
+            <h3 class="section-header">Browser &amp; Touch Icons</h3>
+            <div class="row">
+                <div class="four columns four-up"><img src="http://www.placecage.com/c/32/32"/></div>
+                <div class="four columns four-up"><img src="http://placehold.it/76x76"/></div>
+                <div class="four columns four-up"><img src="http://placehold.it/120x120"/></div>
+                <div class="four columns four-up last"><img src="http://placehold.it/152x152"/></div>
+            </div>
+            <div class="row">
+                <div class="four columns four-up">Favicon &#8211; 32x32</div>
+                <div class="four columns four-up">Apple Touch Icon &#8211; 76x76</div>
+                <div class="four columns four-up">Apple Touch Icon &#8211; 120x120</div>
+                <div class="four columns four-up last">Apple Touch Icon &#8211; 152x152</div>
+            </div>
+        </section>
+
+        <section id="social-icons" class="template-section">
+            <h3 class="section-header">Social Media Icons &#8211; These are just a few examples</h3>
+            <div class="row">
+                <i class="fa fa-twitter fa-2x"></i>
+                <i class="fa fa-twitter-square fa-2x"></i>
+                <i class="fa fa-instagram fa-2x"></i>
+                <i class="fa fa-facebook fa-2x"></i>
+                <i class="fa fa-facebook-square fa-2x"></i>
+                <i class="fa fa-youtube fa-2x"></i>
+                <i class="fa fa-youtube-square fa-2x"></i>
+                <i class="fa fa-linkedin fa-2x"></i>
+                <i class="fa fa-linkedin-square fa-2x"></i>
+                <i class="fa fa-pinterest fa-2x"></i>
+                <i class="fa fa-pinterest-square fa-2x"></i>
+            </div>
+        </section>
+
+        <section id="buttons" class="template-section">
+            <h3 class="section-header">Buttons</h3>
+            <p>
+                <a href="#" class="button">This is a button</a>
+            </p>
+            <p>
+                <a href="#" class="button-disabled">This is a disabled button</a>
+            </p>
+        </section>
+
+        <section id="loading" class="template-section">
+            <h3 class="section-header">Loading Spinners</h3>
+            <i class="fa fa-spinner fa-spin fa-2x"></i>
+            <i class="fa fa-circle-o-notch fa-spin fa-2x"></i>
+            <i class="fa fa-refresh fa-spin fa-2x"></i>
+            <i class="fa fa-cog fa-spin fa-2x"></i>
+        </section>
+
+        <section id="video" class="template-section">
+            <h3 class="section-header">Video</h3>
+            <video width="640" height="480" autoplay muted loop>
+                <source src="video/masthead-teaser.mp4" type="video/mp4">
+            </video>
+        </section>
+
+    </div>
+
+    <iframe id="device-frame"></iframe>
+
+    <script type="text/javascript" src="js/template-nav.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>

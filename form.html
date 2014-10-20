@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Form and Input Elements</title>
+    <link rel="stylesheet" href="styles/base.css"/>
+    <link rel="stylesheet" href="styles/skeleton.css"/>
+    <link rel="stylesheet" href="styles/layout.css"/>
+    <link rel="stylesheet" href="styles/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="templates/skeleton/js/handlebars-v2.0.0.js"></script>
+    <script type="text/javascript" src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+</head>
+<body>
+
+<script id="navigation-template" type="text/x-handlebars-template"></script>
+<header class="page-nav clearfix"></header>
+
+<div class="container test-grid">
+    <h1>Form and Text Elements</h1>
+    <section id="form-inputs" class="template-section">
+        <h3 class="section-header">Form Input Elements</h3>
+        <div class="four columns alpha">
+            <form>
+
+                <label for="regularInput" class="form-label">Regular Input</label>
+                <input type="text" id="regularInput" />
+
+                <label for="searcharea" class="form-label">Search Area and Results</label>
+                <input type="search" id="searcharea" />
+                <a href="#" id="submit-search">Search</a>
+                <div class="search-results"></div>
+
+                <label for="regularTextarea" class="form-label">Regular Textarea</label>
+                <textarea id="regularTextarea"></textarea>
+
+                <label for="richTextarea" class="form-label">Rich Text Area &#8211; This is highly customizable</label>
+                <textarea id="richTextarea"></textarea>
+
+                <label for="selectList" class="form-label">Select List</label>
+                <select id="selectList">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                </select>
+
+                <fieldset class="form-label">
+                    <legend>Checkboxes</legend>
+                    <label for="regularCheckbox">
+                        <input type="checkbox" id="regularCheckbox" value="checkbox 1">
+                        <span>Regular Checkbox</span>
+                    </label>
+                    <label for="secondRegularCheckbox">
+                        <input type="checkbox" id="secondRegularCheckbox" value="checkbox 2">
+                        <span>Regular Checkbox</span>
+                    </label>
+                </fieldset>
+
+                <fieldset class="form-label">
+                    <legend>Radio Buttons</legend>
+                    <label for="regularRadio">
+                        <input type="radio" name="radios" id="regularRadio" value="radio 1">
+                        <span>Regular Radio</span>
+                    </label>
+                    <label for="secondRegularRadio">
+                        <input type="radio" name="radios" id="secondRegularRadio" value="radio 2">
+                        <span>Regular Radio</span>
+                    </label>
+                </fieldset>
+
+                <button type="submit">Submit Form</button>
+
+            </form>
+        </div>
+    </section>
+
+    <section class="template-section" id="messages">
+        <h3 class="section-header">Messages &#8211; These are examples, text style/color can change as needed</h3>
+        <p><span class="warning">This is a warning</span></p>
+        <p><span class="error">This is an error</span></p>
+        <p><span class="confirm">This is a success/confirmation</span></p>
+    </section>
+
+    <section class="template-section" id="alert-popup">
+        <h3 class="section-header">Alert Popup</h3>
+        <p><a href="#" onclick="alert('This is an alert message')">Click here</a> to launch a popup</p>
+    </section>
+
+</div>
+
+<iframe id="device-frame"></iframe>
+
+<script type="text/javascript" src="js/template-nav.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
